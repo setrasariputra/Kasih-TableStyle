@@ -16,4 +16,27 @@ body {
 }
 .table-content table {
     width: 100%;
+    border-bottom: 5px solid #059577;
+}
+.table-content table thead {
+    color: #ffffff;
+}
+.table-content table thead tr {
+    background-color: #059577;
+}
+.table-content table thead th {
+    padding: 15px 0px 15px 0px;
+}
+.table-content table tbody tr {
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+.table-content table tbody td {
+    padding: 15px;
+}
+.text-center {
+    text-align: center;
+}
+.table-content table tr.row-middle {
+    background-color: #f3f3f3;
 }
