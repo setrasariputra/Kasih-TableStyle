@@ -1,0 +1,19 @@
+body {
+    background-color: #fefefe;
+}
+.area {
+    width: 1000px;
+    margin:auto;
+}
+.header-title {
+    color: #333333;
+    text-align: center;
+    font-family: cursive;
+    margin-top:80px;
+}
+.table-content {
+    
+}
+.table-content table {
+    width: 100%;
+}
