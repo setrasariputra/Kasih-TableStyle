@@ -1,5 +1,5 @@
 body {
-    background-color: #fefefe;
+    background-color: #ffffff;
 }
 .area {
     width: 1000px;
@@ -12,30 +12,38 @@ body {
     margin-top:80px;
 }
 .table-content {
-    
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.2);
 }
 .table-content table {
     width: 100%;
     border-bottom: 5px solid #059577;
+    border-collapse: collapse;
 }
 .table-content table thead {
     color: #ffffff;
 }
-.table-content table thead tr {
-    background-color: #059577;
+.table-content table thead tr th.radius-top-left {
+    border-top-left-radius: 10px;
+}
+.table-content table thead tr th.radius-top-right {
+    border-top-right-radius: 10px;
 }
 .table-content table thead th {
     padding: 15px 0px 15px 0px;
+    background-color: #059577;
 }
 .table-content table tbody tr {
     border-top: 1px solid #d9d9d9;
     border-bottom: 1px solid #d9d9d9;
 }
 .table-content table tbody td {
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
 }
 .text-center {
     text-align: center;
+}
+.text-left {
+    text-align: left;
 }
 .table-content table tr.row-middle {
     background-color: #f3f3f3;
